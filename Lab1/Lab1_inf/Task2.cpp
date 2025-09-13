@@ -6,7 +6,7 @@ int main(void)
     {
         if (i == 1)
         {
-            cout << "Цена за " << i << " plate is " << 10 << endl; 
+            cout << "Price of " << i << " plate is " << 10 << endl; 
         }
         else
         {
