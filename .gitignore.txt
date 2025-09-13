@@ -1,0 +1,3 @@
+.vscode
+Task1.exe
+Task2.exe
