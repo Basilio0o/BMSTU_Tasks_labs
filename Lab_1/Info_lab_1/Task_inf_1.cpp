@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     double income;
-    cout << "Input your income ";
+    cout << "Enter your income ";
     cin >> income;
     if (income <= 50000)
     {
