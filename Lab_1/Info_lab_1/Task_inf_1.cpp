@@ -9,7 +9,7 @@ int main()
     {
         cout << "Your tax is " << income * 0.13 << endl;
     }
-    else if (5000 < income <= 100000)
+    else if (income <= 100000)
     {
         cout << "Your tax is " << income * 0.2 << endl;
     }
