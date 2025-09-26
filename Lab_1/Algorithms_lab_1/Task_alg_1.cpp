@@ -38,8 +38,8 @@ int Minimum(int arr[10])
 void BubbleSort(int arr[10])
 {
     int temp = 0;
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < 10 - i; j++){
+    for (int i = 0; i < 9; i++){
+        for (int j = 0; j < 9 - i; j++){
             if(arr[j] > arr[j+1]){
                 temp = arr[j+1];
                 arr[j+1] = arr[j];
