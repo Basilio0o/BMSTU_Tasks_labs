@@ -1,7 +1,9 @@
 .vscode
 *.exe
 *.txt
-/.metadata/
+.metadata
 .settings
 .cproject
 .project
+Debug
+include
