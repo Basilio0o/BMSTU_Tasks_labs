@@ -342,7 +342,7 @@ bool isId(pqxx::connection& conn, int id, const string& table) {
 
         pqxx::work txn(conn);
 
-        pqxx::result res = txn.exec( "SELECT 1 FROM " + table + " WHERE id = " + txn.quote(id));
+        pqxx::result res = txn.exec( "SELECT 1 FROM " + table + " WHERE id = " + to_string(id));
 
         f = !res.empty();
     } catch (const std::exception& e) {
